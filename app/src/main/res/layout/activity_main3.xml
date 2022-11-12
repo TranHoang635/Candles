@@ -2,34 +2,34 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="500dp"
-    android:layout_height="650dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#D0B189"
     android:orientation="vertical"
     tools:context=".MainActivity3">
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="289dp"
-        android:layout_height="375dp"
-        android:layout_marginBottom="244dp"
+        android:layout_width="277dp"
+        android:layout_height="405dp"
+        android:layout_marginBottom="36dp"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@+id/txtHienthithongdiep"
+        app:layout_constraintBottom_toTopOf="@+id/txtHienthithongdiep"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <TextView
         android:id="@+id/txtHienthithongdiep"
-        android:layout_width="298dp"
-        android:layout_height="212dp"
-        android:layout_marginBottom="4dp"
-        android:textAlignment="center"
+        android:layout_width="360dp"
+        android:layout_height="207dp"
+        android:layout_marginBottom="16dp"
+        android:text="Thông điệp sẽ hiển thị ở đây!"
+        android:textAlignment="gravity"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
