@@ -8,10 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity2 extends MainActivity3 {
+public class MainActivity2 extends AppCompatActivity {
 
     TextView txtHienthithongdiep;
-    Button btnRut;
+    Button btnRut, btn_Chon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MainActivity2 extends MainActivity3 {
     }
 
     private void addControls() {
+        btn_Chon = findViewById(R.id.btn_Chon);
         btnRut = findViewById(R.id.btnRut);
         txtHienthithongdiep = findViewById(R.id.txtHienthithongdiep);
     }
@@ -31,6 +32,13 @@ public class MainActivity2 extends MainActivity3 {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                startActivity(intent);
+            }
+        });
+        btn_Chon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity2.this,MainActivityCard.class);
                 startActivity(intent);
             }
         });

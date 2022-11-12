@@ -14,8 +14,10 @@
         android:background="#D0B189"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tarotbackground" />
 
     <TextView
@@ -34,9 +36,9 @@
 
     <Button
         android:id="@+id/btn_join"
-        android:layout_width="173dp"
-        android:layout_height="78dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="372dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="#92765E"
         android:fontFamily="cursive"
         android:text="Start"
@@ -50,9 +52,9 @@
 
     <Button
         android:id="@+id/btn_exit"
-        android:layout_width="135dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="363dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#92765E"
         android:fontFamily="cursive"
         android:text="exit"
@@ -62,4 +64,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="58dp"
+        android:layout_height="12dp"
+        android:text="©candles_team"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

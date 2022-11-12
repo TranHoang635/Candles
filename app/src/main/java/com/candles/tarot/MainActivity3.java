@@ -46,7 +46,6 @@ public class MainActivity3 extends AppCompatActivity {
         txtHienthi = (TextView) findViewById(R.id.txtHienthithongdiep);
         imageView4 = (ImageView)findViewById(R.id.imageView4);
         mData = FirebaseDatabase.getInstance().getReference();
-
         mData.child("Tarots").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
