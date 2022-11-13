@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this, "Tarot run!!! Hãy thử rút một lá bài.", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Tarot run!!! Hãy lựa chọn cách rút nhé !!.", Toast.LENGTH_LONG).show();
             }
         });
 
