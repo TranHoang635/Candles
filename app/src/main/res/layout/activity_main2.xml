@@ -31,22 +31,21 @@
         android:layout_height="55dp"
         android:layout_marginBottom="8dp"
         android:background="#BFB099"
-        android:text="Chọn một lá bài"
+        android:text="Rút ngẫu nhiên"
         app:layout_constraintBottom_toTopOf="@+id/btnRut"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gifImageView"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.621" />
 
     <Button
         android:id="@+id/btnRut"
-        android:layout_width="184dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="60dp"
+        android:layout_width="182dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="28dp"
         android:backgroundTint="#BFB099"
         android:onClick="btnRut"
-        android:text="Rút ngẫu nhiên"
+        android:text="Rút một lá bài"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

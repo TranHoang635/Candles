@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -40,6 +41,7 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity2.this,MainActivityCard.class);
                 startActivity(intent);
+                Toast.makeText(MainActivity2.this, "Hãy chọn một lá bài ở đây nhé !!", Toast.LENGTH_LONG).show();
             }
         });
     }
